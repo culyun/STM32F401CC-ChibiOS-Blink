@@ -1,4 +1,5 @@
 build
+build_stm32f411ce
 .dep
 .vscode/*.state.json
 debug
