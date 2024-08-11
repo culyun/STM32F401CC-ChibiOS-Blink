@@ -428,7 +428,7 @@
         Mode="Input"
         Alternate="0" />
       <pin2
-        ID="SD_CMD"
+        ID=""
         Type="PushPull"
         Level="High"
         Speed="Maximum"
