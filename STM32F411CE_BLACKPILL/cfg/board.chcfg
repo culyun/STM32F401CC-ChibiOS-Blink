@@ -100,7 +100,7 @@
         Speed="Maximum"
         Resistor="Floating"
         Mode="Alternate"
-        Alternate="4" />
+        Alternate="7" />
       <pin10
         ID="USART1_RX"
         Type="PushPull"
@@ -108,7 +108,7 @@
         Speed="Maximum"
         Resistor="Floating"
         Mode="Alternate"
-        Alternate="4" />
+        Alternate="7" />
       <pin11
         ID="SPI4_MISO USART6_TX USART1_CTS"
         Type="PushPull"

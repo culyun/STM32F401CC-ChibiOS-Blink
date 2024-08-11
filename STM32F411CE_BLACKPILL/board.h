@@ -353,8 +353,8 @@
  * PA6  - ADC1_IN6 SPI1_MISO        (input pullup).
  * PA7  - ADC1_IN7 SPI1_MOSI        (input pullup).
  * PA8  - I2C3_SCL USART1_SCK       (input pullup).
- * PA9  - USART1_TX                 (alternate 4).
- * PA10 - USART1_RX                 (alternate 4).
+ * PA9  - USART1_TX                 (alternate 7).
+ * PA10 - USART1_RX                 (alternate 7).
  * PA11 - SPI4_MISO USART6_TX USART1_CTS(alternate 0).
  * PA12 - SPI5_MISO USART6_RX USART1_RTS(alternate 0).
  * PA13 - SWDIO                     (alternate 0).
@@ -450,8 +450,8 @@
                                      PIN_AFIO_AF(GPIOA_ADC1_IN6, 0U) |      \
                                      PIN_AFIO_AF(GPIOA_ADC1_IN7, 0U))
 #define VAL_GPIOA_AFRH              (PIN_AFIO_AF(GPIOA_I2C3_SCL, 0U) |      \
-                                     PIN_AFIO_AF(GPIOA_USART1_TX, 4U) |     \
-                                     PIN_AFIO_AF(GPIOA_USART1_RX, 4U) |     \
+                                     PIN_AFIO_AF(GPIOA_USART1_TX, 7U) |     \
+                                     PIN_AFIO_AF(GPIOA_USART1_RX, 7U) |     \
                                      PIN_AFIO_AF(GPIOA_SPI4_MISO, 0U) |     \
                                      PIN_AFIO_AF(GPIOA_SPI5_MISO, 0U) |     \
                                      PIN_AFIO_AF(GPIOA_SWDIO, 0U) |         \
